@@ -1,0 +1,124 @@
+/*task1*/
+.parent{
+    background-color:purple;
+    padding: 10px;
+    height: 1000px;
+    width:1000;
+    display: flex;
+    flex-flow: row ; 
+     align-items:start;
+}
+.ox{ padding:5px;margin: 5px;
+    background-color: aliceblue;
+    height:200px;width: 200px;
+}
+/*task2*/
+.navbar{border: solid;
+    background-color:white;
+    padding: 10px;
+    height: 20px;
+    width:1000;
+    display: flex;
+    flex-flow: row ; 
+    justify-content:space-between
+
+}
+.logo{
+    width:20px;height:20px
+}
+.contact{ padding: 30px; margin: 30px;;
+    display: flex;
+    
+    justify-content:space-evenly
+
+}
+/*task3*/
+.bage{ border: solid blue;
+    background-color:aliceblue;
+    padding: 10px;
+    height: 1000px;
+    width:1000;
+    display: flex;
+    flex-flow: row ; 
+justify-content: center;
+align-items: center;
+}
+.center{
+    border:solid rgb(114, 114, 222);
+    background-color: aqua;width:100px;height:100px;
+}
+/*task4*/
+ .boxes{ padding: 10px;
+    height: 1000px;
+    width:1000;
+    display: flex;
+    flex-flow: row ; 
+     align-items:start;
+    }
+    .box{border-radius:10px;
+        padding:1px;margin:1px;
+    background-color: rgb(118, 152, 181);
+    height:200px;width: 200px;}
+    /*task5*/
+    .green{
+        padding: 10px;
+        height: 0px;
+        width:500px;
+        display: flex;
+        flex-flow: row  wrap; 
+     
+        
+    }
+    .color{ border-radius:5px;
+        padding:5px;margin: 5px;
+        background-color: rgb(41, 96, 145);
+        height: 50px;width: 100px;}
+ .item4{ flex-basis:120px;}
+  .item5{flex-basis: 150px;}  
+  .item6{flex-basis:120px;}
+  .item7{ flex-basis: 150px;}
+  .item8{flex-basis: 150px;}
+  .item9{flex-basis:130px ;}
+  .item10{flex-basis: 140px;}
+
+  /*task6*/
+
+.self{border:solid yellow;height:500px;width: 1000px;
+     display: flex;
+    flex-flow: row;
+}
+.s{ width:50px;height:50px ;text-align: center;color: aliceblue; }
+.f1{ background-color: green;width:20px;height:20px; margin-top:20px;}
+.f2{ background-color: blue;}
+.f3{background-color: purple;}
+.f4{ background-color: black;width:50px;
+    align-self:stretch; color: aliceblue;}
+.f5{width:20px ;height:20px;align-self:center;background-color: yellow;}
+.f6{background-color: orangered;}
+.f7{background-color: brown;}
+.f8{background-color: gray;}
+.f9{background-color:greenyellow;}
+.f10{ background-color: green;align-self: flex-end;}
+/*task7*/
+.dir{
+    border:solid yellow 10px;height:700px;width: 700px;flex-direction:column;
+}
+.rol{
+    height: 50px;text-align: center;align-items: center;color: aliceblue;padding:10px;font-size:40px; ;
+}
+.d1{ background-color: green;}
+.d2{ background-color: blue;}
+.d3{background-color: purple;}
+.d4{ background-color:black;}
+.d5{background-color: yellow;}
+.d6{background-color: orangered;}
+.d7{background-color: brown;}
+.d8{background-color: gray;}
+.d9{background-color:greenyellow;}
+.d10{ background-color: green;}
+
+/*task8*/
+.size{
+    display: flex;
+    
+}
